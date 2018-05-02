@@ -9,7 +9,7 @@ package edu.handong.csee.java.lab13.prob1; //package name
  *
  */
 public class ClassFriend extends SchoolFriend{ //class ClassFriend inherits SchoolFriend
-	
+
 	public void classFriend() { //declaration of classFriend method
 		System.out.println("Class Friend."); //prints out the info
 	}

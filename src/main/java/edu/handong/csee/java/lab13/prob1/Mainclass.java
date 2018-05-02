@@ -9,11 +9,11 @@ public class Mainclass { //declaration of main class
 
 	public static void main(String[] args) { //main 
 		// TODO Auto-generated method stub
-		
+
 		Friend friend1 = new Friend(); //initiate friend1 of class Friend
 		SchoolFriend friend2 = new SchoolFriend(); //initiate friend2 of class SchoolFriend
 		ClassFriend friend3 = new ClassFriend(); //initiate friend3 of class ClassFriend
-		
+
 		InstanceOf.whatFriend(friend1); //runs whatFriend method of class InstanceOf with the parameter of Friend friend1 
 		InstanceOf.whatFriend(friend2); //runs whatFriend method of class InstanceOf with the parameter of SchoolFriend friend2
 		InstanceOf.whatFriend(friend3); //runs whatFriend method of class InstanceOf with the parameter of ClassFriend friend3 
